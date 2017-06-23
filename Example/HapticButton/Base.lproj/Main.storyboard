@@ -1,76 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.19" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-<dependencies>
-<plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.16"/>
-<capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
-</dependencies>
-<scenes>
-<!--View Controller-->
-<scene sceneID="tne-QT-ifu">
-<objects>
-<viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ForceTouch" customModuleProvider="target" sceneMemberID="viewController">
-<layoutGuides>
-<viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-<viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-</layoutGuides>
-<view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-<rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-<autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-<subviews>
-<imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="berlin.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="DIc-RH-mGZ">
-<rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-</imageView>
-<view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JlW-XT-iJe" customClass="HapticButton" customModule="ForceTouch" customModuleProvider="target">
-<rect key="frame" x="225" y="35" width="150" height="150"/>
-<color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-<constraints>
-<constraint firstAttribute="width" constant="150" id="2d1-ch-INK"/>
-<constraint firstAttribute="height" constant="150" id="pZs-jG-XUz"/>
-</constraints>
-</view>
-<view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6di-EH-QM3" customClass="HapticButton" customModule="ForceTouch" customModuleProvider="target">
-<rect key="frame" x="225" y="415" width="150" height="150"/>
-<color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-<constraints>
-<constraint firstAttribute="width" constant="150" id="Iga-79-SxJ"/>
-<constraint firstAttribute="height" constant="150" id="utX-z2-naH"/>
-</constraints>
-</view>
-<view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZZh-G6-KPs" customClass="HapticButton" customModule="ForceTouch" customModuleProvider="target">
-<rect key="frame" x="225" y="225" width="150" height="150"/>
-<color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-<constraints>
-<constraint firstAttribute="height" constant="150" id="AgH-gg-FDh"/>
-<constraint firstAttribute="width" constant="150" id="ol3-aH-yKh"/>
-</constraints>
-</view>
-</subviews>
-<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-<constraints>
-<constraint firstItem="ZZh-G6-KPs" firstAttribute="top" secondItem="JlW-XT-iJe" secondAttribute="bottom" constant="40" id="2Jq-wR-kjw"/>
-<constraint firstItem="6di-EH-QM3" firstAttribute="top" secondItem="ZZh-G6-KPs" secondAttribute="bottom" constant="40" id="BqK-gm-rAE"/>
-<constraint firstItem="ZZh-G6-KPs" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="CRJ-6B-Hcr"/>
-<constraint firstItem="DIc-RH-mGZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="GYs-Zd-etH"/>
-<constraint firstItem="6di-EH-QM3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Qfi-Fd-Gul"/>
-<constraint firstItem="ZZh-G6-KPs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Rpv-dK-dcY"/>
-<constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="DIc-RH-mGZ" secondAttribute="bottom" id="Tqx-34-rEN"/>
-<constraint firstItem="DIc-RH-mGZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="chv-xo-mJe"/>
-<constraint firstItem="JlW-XT-iJe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="e9R-fa-SQm"/>
-<constraint firstAttribute="trailing" secondItem="DIc-RH-mGZ" secondAttribute="trailing" id="eCh-WI-CHb"/>
-</constraints>
-</view>
-<connections>
-<outlet property="blurButton" destination="ZZh-G6-KPs" id="OST-ha-V3V"/>
-<outlet property="button" destination="JlW-XT-iJe" id="uza-vX-ksv"/>
-<outlet property="darkBlurButton" destination="6di-EH-QM3" id="oOd-RQ-Mfg"/>
-</connections>
-</viewController>
-<placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-</objects>
-<point key="canvasLocation" x="32.799999999999997" y="37.331334332833585"/>
-</scene>
-</scenes>
-<resources>
-<image name="berlin.jpg" width="3024" height="4032"/>
-</resources>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HapticButton_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="berlin.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="DIc-RH-mGZ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JlW-XT-iJe" customClass="HapticButton" customModule="HapticButton">
+                                <rect key="frame" x="112.5" y="68.5" width="150" height="150"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="2d1-ch-INK"/>
+                                    <constraint firstAttribute="height" constant="150" id="pZs-jG-XUz"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6di-EH-QM3" customClass="HapticButton" customModule="HapticButton">
+                                <rect key="frame" x="112.5" y="448.5" width="150" height="150"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="Iga-79-SxJ"/>
+                                    <constraint firstAttribute="height" constant="150" id="utX-z2-naH"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZZh-G6-KPs" customClass="HapticButton" customModule="HapticButton">
+                                <rect key="frame" x="112.5" y="258.5" width="150" height="150"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="AgH-gg-FDh"/>
+                                    <constraint firstAttribute="width" constant="150" id="ol3-aH-yKh"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ZZh-G6-KPs" firstAttribute="top" secondItem="JlW-XT-iJe" secondAttribute="bottom" constant="40" id="2Jq-wR-kjw"/>
+                            <constraint firstItem="6di-EH-QM3" firstAttribute="top" secondItem="ZZh-G6-KPs" secondAttribute="bottom" constant="40" id="BqK-gm-rAE"/>
+                            <constraint firstItem="ZZh-G6-KPs" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="CRJ-6B-Hcr"/>
+                            <constraint firstItem="DIc-RH-mGZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="GYs-Zd-etH"/>
+                            <constraint firstItem="6di-EH-QM3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Qfi-Fd-Gul"/>
+                            <constraint firstItem="ZZh-G6-KPs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Rpv-dK-dcY"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="DIc-RH-mGZ" secondAttribute="bottom" id="Tqx-34-rEN"/>
+                            <constraint firstItem="DIc-RH-mGZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="chv-xo-mJe"/>
+                            <constraint firstItem="JlW-XT-iJe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="e9R-fa-SQm"/>
+                            <constraint firstAttribute="trailing" secondItem="DIc-RH-mGZ" secondAttribute="trailing" id="eCh-WI-CHb"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="blurButton" destination="ZZh-G6-KPs" id="OST-ha-V3V"/>
+                        <outlet property="button" destination="JlW-XT-iJe" id="uza-vX-ksv"/>
+                        <outlet property="darkBlurButton" destination="6di-EH-QM3" id="oOd-RQ-Mfg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="37.331334332833585"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="berlin.jpg" width="3024" height="4032"/>
+    </resources>
 </document>
