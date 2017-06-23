@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.summary          = 'A button that is triggered based on the 3D Touch pressure, similar to the iOS 11 control center.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A button that is triggered based on the 3D Touch pressure, similar to the iOS 11 control center.
                        DESC
 
   s.homepage         = 'https://github.com/BalestraPatrick/HapticButton'
