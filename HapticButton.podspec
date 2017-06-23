@@ -1,14 +1,6 @@
-#
-# Be sure to run `pod lib lint HapticButton.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'HapticButton'
-  s.version          = '0.1.0'
+  s.version          = '0.1'
   s.summary          = 'A button that is triggered based on the 3D Touch pressure, similar to the iOS 11 control center.'
 
   s.description      = <<-DESC
