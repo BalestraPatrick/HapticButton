@@ -22,9 +22,9 @@
 
 ## 📖 Description
 
-`HapticButton` replicates the behavior of some buttons in the iOS 10 and 11 Control Center as well as in the Home app. A device with 3D Touch is required to fully experience it. 
+`HapticButton` replicates the behavior of the buttons in the iOS 10 and 11 Control Center as well as in the Home app. A device with 3D Touch is required to fully experience the haptic feedback on supported devices. It is implemented as a subclass of `UIControl`, so feel free to further customize it to your needs.
 
-The user is required to press the button and activate 3D Touch with a minimum threshold (you can specify the minimum value to trigger the button via the `feedbackThreshold` property). This allows for a cool interaction that gives an haptic feedback to the user when the button is triggered. 👍
+The user is required to press the button and activate 3D Touch with a minimum pressure threshold (you can specify the minimum value to trigger the button via the `feedbackThreshold` property). This allows for a cool interaction that gives an haptic feedback to the user when the button is triggered. 👍
 
 For the best experience, install the example on a device. 📱
 
@@ -61,7 +61,7 @@ darkBlurButton.onPressed = {
 ```
 
 ## 🎨 Customizations
-These are the public properties that allows you to customize the control. In case you are thinking to modify `HapticButton` even further, consider creating a [Pull Request](https://github.com/BalestraPatrick/HapticButton/compare)! 👏🏻
+These are the public properties that allow you to customize the control. In case you are thinking to modify `HapticButton` even further, consider creating a [Pull Request](https://github.com/BalestraPatrick/HapticButton/compare)! 👏🏻
 
 ```swift
 public weak var delegate: HapticButtonDelegate?
