@@ -1,9 +1,22 @@
-[![CI Status](https://dashboard.buddybuild.com/api/statusImage?appID=594d396430fb80000135db8f&branch=master&build=latest)](https://dashboard.buddybuild.com/apps/594d396430fb80000135db8f/build/latest?branch=master)
-[![Version](https://img.shields.io/cocoapods/v/HapticButton.svg?style=flat)](http://cocoapods.org/pods/HapticButton)
-[![License](https://img.shields.io/cocoapods/l/HapticButton.svg?style=flat)](http://cocoapods.org/pods/HapticButton)
-[![Platform](https://img.shields.io/cocoapods/p/HapticButton.svg?style=flat)](http://cocoapods.org/pods/HapticButton)
-
 <p align="center"><img src="example.gif" width="600px"/></p>
+
+<p align="center">
+    <a href="https://travis-ci.org/BalestraPatrick/SquishButton">
+        <img src="https://dashboard.buddybuild.com/api/statusImage?appID=594d396430fb80000135db8f&branch=master&build=latest" alt="buddybuild" />
+    </a>
+    <a href="https://github.com/Carthage/Carthage">
+        <img src="https://img.shields.io/badge/carthage-compatible-4BC51D.svg?style=flat" alt="Carthage" />
+    </a>
+    <a href="http://cocoapods.org/pods/HapticButton">
+        <img src="https://img.shields.io/cocoapods/l/HapticButton.svg?style=flat" alt="License" />
+    </a>
+    <a href="http://cocoapods.org/pods/SquishButton">
+        <img src="https://img.shields.io/cocoapods/p/SquishButton.svg?style=flat" alt="Platform" />
+    </a>
+    <a href="https://twitter.com/BalestraPatrick">
+        <img src="https://img.shields.io/badge/contact-@BalestraPatrick-yellow.svg?style=flat" alt="Twitter: @BalestraPatrick" />
+    </a>
+</p>
 
 # HapticButton
 
