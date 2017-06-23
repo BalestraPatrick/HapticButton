@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08946FD7AA64110B2C6131A5168AB374 /* Pods-HapticButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB62BE95366BE1CD3A1BF7550C681A1 /* Pods-HapticButton_Example-dummy.m */; };
+		5892576AC26C1548D5AC98F1EAA7F0CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7094F662FC931684DF9AEACB0599C4FC /* Pods-HapticButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 644799752B8D34DB8A4BF8A7A085EC55 /* Pods-HapticButton_Tests-dummy.m */; };
+		8FECA4BCAF5AFD6BABD027D993CA4441 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AE1EE1641EFD5FE800E0E1C1 /* HapticButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1EE1631EFD5FE800E0E1C1 /* HapticButton.swift */; };
+		B567061014C8028C380D8A260C2825C4 /* HapticButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D05F3760F68725F17A59C3763C0019 /* HapticButton-dummy.m */; };
+		C07804BFBE2064F13D4A19B3F3B68E2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DF0B3E0A4CD89DEA761EF2FD8FEE712A /* Pods-HapticButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F52232BD939BF0C5F5A27B2E6D335EBE /* Pods-HapticButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF49178427A0E1A3B57BFC2057B06191 /* HapticButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78992CE30419F4F7488787759E395A61 /* HapticButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBA7DBC56B9B77B9C605A834531C46CC /* Pods-HapticButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12BA77A288773821A19100E749A8E628 /* Pods-HapticButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92ADCD9440A418FB5EF3FCED300F7BD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C35E1CBABF1183C50459CB7DDA0D4AD2;
+			remoteInfo = HapticButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0196518E93A4D6736C0F5BD35CC819A3 /* HapticButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HapticButton.modulemap; sourceTree = "<group>"; };
+		070185E8507FB08BBC7FC660C9C0F4CA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D9769C6F0C333245860AE9AB0EED646 /* HapticButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HapticButton-prefix.pch"; sourceTree = "<group>"; };
+		11C353963348BA18E73CE1DF2A5E3988 /* HapticButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HapticButton.xcconfig; sourceTree = "<group>"; };
+		12BA77A288773821A19100E749A8E628 /* Pods-HapticButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HapticButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		1BCB99C31223269FAA0775906166C0E2 /* Pods-HapticButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HapticButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2D13C2E150D1FC58E77F2D8C53EC80E6 /* Pods-HapticButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HapticButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2D2C7BB551F9C6AD829D6CB540B368A0 /* Pods-HapticButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HapticButton_Tests.modulemap"; sourceTree = "<group>"; };
+		31D58C07D8C4F70CE16A93A093A4EFDA /* HapticButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HapticButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FE611740F4EBE1FBE97909D35A10995 /* Pods_HapticButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HapticButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		403D761031C2DDE91D047839CB4FC4DE /* Pods-HapticButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HapticButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5CE88CCEDB56073C04BAF586D3D08FB8 /* Pods-HapticButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HapticButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		644799752B8D34DB8A4BF8A7A085EC55 /* Pods-HapticButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HapticButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		65444092403839E676A85C27CE6E40F5 /* Pods-HapticButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HapticButton_Example.modulemap"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66927B4D995A3E062042AB0F19B8AE4C /* Pods-HapticButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HapticButton_Example-resources.sh"; sourceTree = "<group>"; };
+		68F0926A17DF545BFBEC13D45D719A7D /* Pods-HapticButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HapticButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		77C7139B50D5C56D80345727822955D3 /* Pods-HapticButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HapticButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		78992CE30419F4F7488787759E395A61 /* HapticButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HapticButton-umbrella.h"; sourceTree = "<group>"; };
+		7F234CA056ADD10636E21BBFC2D72DDB /* Pods-HapticButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HapticButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		83D05F3760F68725F17A59C3763C0019 /* HapticButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HapticButton-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9916C0F33F2527DD03C0D077FB609620 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A4480C62B09CCEF1F705746F709CB28 /* Pods-HapticButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HapticButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A034D649B748B48DE071F776F3A4C7F9 /* Pods-HapticButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HapticButton_Tests-resources.sh"; sourceTree = "<group>"; };
+		A5C912BA77EF983048F24755458AE9E9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE1EE1631EFD5FE800E0E1C1 /* HapticButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HapticButton.swift; sourceTree = "<group>"; };
+		B515B3E9AA8408ADA7CE67A5F377ACC6 /* Pods-HapticButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HapticButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BC174480E9E63C2C5E6C491BEBFA2A0D /* Pods-HapticButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HapticButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D32F8DD85E1C306C3DBDC68B920E6F2F /* Pods_HapticButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HapticButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52232BD939BF0C5F5A27B2E6D335EBE /* Pods-HapticButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HapticButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FEB62BE95366BE1CD3A1BF7550C681A1 /* Pods-HapticButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HapticButton_Example-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3971250304FAA409A3FBE8DB8CFA4E1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5892576AC26C1548D5AC98F1EAA7F0CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50DF0D004BB54310CCEAE2A0FCFFAB11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FECA4BCAF5AFD6BABD027D993CA4441 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3AB5B48E8A64C0D3F75F9AFFC842AB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07804BFBE2064F13D4A19B3F3B68E2D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A40B6C44A60598ADAEE264F69F4719E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0196518E93A4D6736C0F5BD35CC819A3 /* HapticButton.modulemap */,
+				11C353963348BA18E73CE1DF2A5E3988 /* HapticButton.xcconfig */,
+				83D05F3760F68725F17A59C3763C0019 /* HapticButton-dummy.m */,
+				0D9769C6F0C333245860AE9AB0EED646 /* HapticButton-prefix.pch */,
+				78992CE30419F4F7488787759E395A61 /* HapticButton-umbrella.h */,
+				A5C912BA77EF983048F24755458AE9E9 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HapticButton";
+			sourceTree = "<group>";
+		};
+		2D4A73B7623F9C52730B2ADF0138C05C /* Pods-HapticButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9916C0F33F2527DD03C0D077FB609620 /* Info.plist */,
+				65444092403839E676A85C27CE6E40F5 /* Pods-HapticButton_Example.modulemap */,
+				68F0926A17DF545BFBEC13D45D719A7D /* Pods-HapticButton_Example-acknowledgements.markdown */,
+				1BCB99C31223269FAA0775906166C0E2 /* Pods-HapticButton_Example-acknowledgements.plist */,
+				FEB62BE95366BE1CD3A1BF7550C681A1 /* Pods-HapticButton_Example-dummy.m */,
+				2D13C2E150D1FC58E77F2D8C53EC80E6 /* Pods-HapticButton_Example-frameworks.sh */,
+				66927B4D995A3E062042AB0F19B8AE4C /* Pods-HapticButton_Example-resources.sh */,
+				12BA77A288773821A19100E749A8E628 /* Pods-HapticButton_Example-umbrella.h */,
+				B515B3E9AA8408ADA7CE67A5F377ACC6 /* Pods-HapticButton_Example.debug.xcconfig */,
+				5CE88CCEDB56073C04BAF586D3D08FB8 /* Pods-HapticButton_Example.release.xcconfig */,
+			);
+			name = "Pods-HapticButton_Example";
+			path = "Target Support Files/Pods-HapticButton_Example";
+			sourceTree = "<group>";
+		};
+		4180D8A6FA6039E0CF02DD3F272EAAA2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D4A73B7623F9C52730B2ADF0138C05C /* Pods-HapticButton_Example */,
+				8D4D4FB15768E5D8353A3B9EAA9B6FF6 /* Pods-HapticButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				CDE025D1F0D6109FA31EFBEC2199B8E9 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F3ACC120E691F9B9318FC95C520C6EA8 /* Products */,
+				4180D8A6FA6039E0CF02DD3F272EAAA2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8D4D4FB15768E5D8353A3B9EAA9B6FF6 /* Pods-HapticButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				070185E8507FB08BBC7FC660C9C0F4CA /* Info.plist */,
+				2D2C7BB551F9C6AD829D6CB540B368A0 /* Pods-HapticButton_Tests.modulemap */,
+				BC174480E9E63C2C5E6C491BEBFA2A0D /* Pods-HapticButton_Tests-acknowledgements.markdown */,
+				403D761031C2DDE91D047839CB4FC4DE /* Pods-HapticButton_Tests-acknowledgements.plist */,
+				644799752B8D34DB8A4BF8A7A085EC55 /* Pods-HapticButton_Tests-dummy.m */,
+				7F234CA056ADD10636E21BBFC2D72DDB /* Pods-HapticButton_Tests-frameworks.sh */,
+				A034D649B748B48DE071F776F3A4C7F9 /* Pods-HapticButton_Tests-resources.sh */,
+				F52232BD939BF0C5F5A27B2E6D335EBE /* Pods-HapticButton_Tests-umbrella.h */,
+				77C7139B50D5C56D80345727822955D3 /* Pods-HapticButton_Tests.debug.xcconfig */,
+				9A4480C62B09CCEF1F705746F709CB28 /* Pods-HapticButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-HapticButton_Tests";
+			path = "Target Support Files/Pods-HapticButton_Tests";
+			sourceTree = "<group>";
+		};
+		AB09491E42177EA84C4D376A03C14E30 /* HapticButton */ = {
+			isa = PBXGroup;
+			children = (
+				F440D352F5E324EA7175827B8666E910 /* Classes */,
+			);
+			path = HapticButton;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDE025D1F0D6109FA31EFBEC2199B8E9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D44C5D1941D22FD2089D73F72C1785C1 /* HapticButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D44C5D1941D22FD2089D73F72C1785C1 /* HapticButton */ = {
+			isa = PBXGroup;
+			children = (
+				AB09491E42177EA84C4D376A03C14E30 /* HapticButton */,
+				2A40B6C44A60598ADAEE264F69F4719E /* Support Files */,
+			);
+			name = HapticButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F3ACC120E691F9B9318FC95C520C6EA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31D58C07D8C4F70CE16A93A093A4EFDA /* HapticButton.framework */,
+				3FE611740F4EBE1FBE97909D35A10995 /* Pods_HapticButton_Example.framework */,
+				D32F8DD85E1C306C3DBDC68B920E6F2F /* Pods_HapticButton_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F440D352F5E324EA7175827B8666E910 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AE1EE1631EFD5FE800E0E1C1 /* HapticButton.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6071E61B3510366640C9897F35AC0516 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF49178427A0E1A3B57BFC2057B06191 /* HapticButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93670F80FF8C02915A6172DC066677AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBA7DBC56B9B77B9C605A834531C46CC /* Pods-HapticButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9986A3AE399BFD0E014F6EC45DEDAD24 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF0B3E0A4CD89DEA761EF2FD8FEE712A /* Pods-HapticButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A8AD01B7397044A20CE4A531A5FC0582 /* Pods-HapticButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD6F82D6D7954F31C0A499D0E1A07AEB /* Build configuration list for PBXNativeTarget "Pods-HapticButton_Tests" */;
+			buildPhases = (
+				2501FFB58C1ECC160FD6F0B6312DD804 /* Sources */,
+				3971250304FAA409A3FBE8DB8CFA4E1F /* Frameworks */,
+				9986A3AE399BFD0E014F6EC45DEDAD24 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HapticButton_Tests";
+			productName = "Pods-HapticButton_Tests";
+			productReference = D32F8DD85E1C306C3DBDC68B920E6F2F /* Pods_HapticButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C35E1CBABF1183C50459CB7DDA0D4AD2 /* HapticButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6368DAC261625F8C172904DC40FFC2E5 /* Build configuration list for PBXNativeTarget "HapticButton" */;
+			buildPhases = (
+				3165B2DF73F3E547C3D93183C24A5D35 /* Sources */,
+				F3AB5B48E8A64C0D3F75F9AFFC842AB2 /* Frameworks */,
+				6071E61B3510366640C9897F35AC0516 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HapticButton;
+			productName = HapticButton;
+			productReference = 31D58C07D8C4F70CE16A93A093A4EFDA /* HapticButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D5A1EEEA12A5DFA20E89D47B658057BD /* Pods-HapticButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8CB3ECEF07E1CFC7A5D792A677CC361 /* Build configuration list for PBXNativeTarget "Pods-HapticButton_Example" */;
+			buildPhases = (
+				E3C056FCA8EEEC6F7518A191AC3756A4 /* Sources */,
+				50DF0D004BB54310CCEAE2A0FCFFAB11 /* Frameworks */,
+				93670F80FF8C02915A6172DC066677AE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				731E41729F570D37944406119DA24085 /* PBXTargetDependency */,
+			);
+			name = "Pods-HapticButton_Example";
+			productName = "Pods-HapticButton_Example";
+			productReference = 3FE611740F4EBE1FBE97909D35A10995 /* Pods_HapticButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					C35E1CBABF1183C50459CB7DDA0D4AD2 = {
+						LastSwiftMigration = 0830;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F3ACC120E691F9B9318FC95C520C6EA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C35E1CBABF1183C50459CB7DDA0D4AD2 /* HapticButton */,
+				D5A1EEEA12A5DFA20E89D47B658057BD /* Pods-HapticButton_Example */,
+				A8AD01B7397044A20CE4A531A5FC0582 /* Pods-HapticButton_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2501FFB58C1ECC160FD6F0B6312DD804 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7094F662FC931684DF9AEACB0599C4FC /* Pods-HapticButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3165B2DF73F3E547C3D93183C24A5D35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1EE1641EFD5FE800E0E1C1 /* HapticButton.swift in Sources */,
+				B567061014C8028C380D8A260C2825C4 /* HapticButton-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C056FCA8EEEC6F7518A191AC3756A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08946FD7AA64110B2C6131A5168AB374 /* Pods-HapticButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		731E41729F570D37944406119DA24085 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HapticButton;
+			target = C35E1CBABF1183C50459CB7DDA0D4AD2 /* HapticButton */;
+			targetProxy = 92ADCD9440A418FB5EF3FCED300F7BD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		004EC619CB11859B20CD58D044A1DC56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11C353963348BA18E73CE1DF2A5E3988 /* HapticButton.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HapticButton/HapticButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HapticButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HapticButton/HapticButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HapticButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1D64E7FC20EA48224649881C5CA64ACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A4480C62B09CCEF1F705746F709CB28 /* Pods-HapticButton_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HapticButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HapticButton_Tests/Pods-HapticButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HapticButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		45D81217B6C755B34B49CA4FE44CFCE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77C7139B50D5C56D80345727822955D3 /* Pods-HapticButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HapticButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HapticButton_Tests/Pods-HapticButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HapticButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5410237C325BCAB78F347EAFDFFCC948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B515B3E9AA8408ADA7CE67A5F377ACC6 /* Pods-HapticButton_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HapticButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HapticButton_Example/Pods-HapticButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HapticButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A812E9F8D5CCF59997453211102E89D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11C353963348BA18E73CE1DF2A5E3988 /* HapticButton.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HapticButton/HapticButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HapticButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HapticButton/HapticButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HapticButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC6E99C7DF42878F3670A667F4D78889 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CE88CCEDB56073C04BAF586D3D08FB8 /* Pods-HapticButton_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HapticButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HapticButton_Example/Pods-HapticButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HapticButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6368DAC261625F8C172904DC40FFC2E5 /* Build configuration list for PBXNativeTarget "HapticButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A812E9F8D5CCF59997453211102E89D5 /* Debug */,
+				004EC619CB11859B20CD58D044A1DC56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8CB3ECEF07E1CFC7A5D792A677CC361 /* Build configuration list for PBXNativeTarget "Pods-HapticButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5410237C325BCAB78F347EAFDFFCC948 /* Debug */,
+				BC6E99C7DF42878F3670A667F4D78889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD6F82D6D7954F31C0A499D0E1A07AEB /* Build configuration list for PBXNativeTarget "Pods-HapticButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45D81217B6C755B34B49CA4FE44CFCE1 /* Debug */,
+				1D64E7FC20EA48224649881C5CA64ACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

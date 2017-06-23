@@ -1,0 +1,6 @@
+framework module HapticButton {
+  umbrella header "HapticButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

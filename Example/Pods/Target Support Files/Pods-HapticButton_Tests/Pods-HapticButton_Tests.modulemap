@@ -1,0 +1,6 @@
+framework module Pods_HapticButton_Tests {
+  umbrella header "Pods-HapticButton_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

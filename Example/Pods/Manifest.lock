@@ -1,0 +1,16 @@
+PODS:
+  - HapticButton (0.1.0)
+
+DEPENDENCIES:
+  - HapticButton (from `../`)
+
+EXTERNAL SOURCES:
+  HapticButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HapticButton: d6971b5d1db17da3887c5c0d499d0978d8a9ba06
+
+PODFILE CHECKSUM: 3ad4f7b2743f075a0c9e3610368d04788844c9be
+
+COCOAPODS: 1.2.1
