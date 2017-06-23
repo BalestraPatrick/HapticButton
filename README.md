@@ -1,4 +1,4 @@
-[![CI Status](http://img.shields.io/travis/BalestraPatrick/HapticButton.svg?style=flat)](https://travis-ci.org/BalestraPatrick/HapticButton)
+[![CI Status](https://dashboard.buddybuild.com/api/statusImage?appID=594d396430fb80000135db8f&branch=master&build=latest)](https://dashboard.buddybuild.com/apps/594d396430fb80000135db8f/build/latest?branch=master)
 [![Version](https://img.shields.io/cocoapods/v/HapticButton.svg?style=flat)](http://cocoapods.org/pods/HapticButton)
 [![License](https://img.shields.io/cocoapods/l/HapticButton.svg?style=flat)](http://cocoapods.org/pods/HapticButton)
 [![Platform](https://img.shields.io/cocoapods/p/HapticButton.svg?style=flat)](http://cocoapods.org/pods/HapticButton)
