@@ -39,7 +39,7 @@ open class HapticButton: UIControl {
         label.text = "Press Me!"
         label.textColor = .black
         label.textAlignment = .center
-        label.font = UIFont.systemFont(ofSize: 20, weight: UIFontWeightMedium)
+        label.font = UIFont.systemFont(ofSize: 20, weight: UIFont.Weight.medium)
         return label
     }()
 

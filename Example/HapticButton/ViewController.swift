@@ -36,7 +36,7 @@ class ViewController: UIViewController {
         }
     }
 
-    func blurButtonPressed(_ sender: HapticButton) {
+    @objc func blurButtonPressed(_ sender: HapticButton) {
         print("Light blur button pressed.")
     }
 }
