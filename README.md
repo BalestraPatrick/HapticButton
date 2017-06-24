@@ -85,7 +85,7 @@ public var mode = HapticButtonMode.label(text: "Title")
 ## 🔞 Requirements
 iOS 10.0 and Swift 3.2 are required. 
 
-If you are using Swift 4, please use the [swift4 branch](https://github.com/BalestraPatrick/ParticlesLoadingView/tree/swift4).
+If you are using Swift 4, please use the [swift4 branch](https://github.com/BalestraPatrick/HapticButton/tree/swift4).
 
 ## 🛠 Installation
 
