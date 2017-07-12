@@ -50,6 +50,9 @@ open class HapticButton: UIControl {
         return imageView
     }()
 
+    /// The insets of the content (UIImageView or UILabel).
+    public var contentEdgeInsets = UIEdgeInsets(top: 20, left: 20, bottom: 20, right: 20)
+
     /// The current mode of the button.
     public var mode = HapticButtonMode.label(text: "Title") {
         didSet {
@@ -61,14 +64,14 @@ open class HapticButton: UIControl {
                 }
                 imageView.image = image
                 self.addSubview(imageView)
-                imageView.constrainEdges(to: self, insets: UIEdgeInsets(top: 20, left: 20, bottom: 20, right: 20))
+                imageView.constrainEdges(to: self, insets: contentEdgeInsets)
             case .label(let text):
                 if imageView.superview != nil {
                     imageView.removeFromSuperview()
                 }
                 textLabel.text = text
                 self.addSubview(textLabel)
-                textLabel.constrainEdges(to: self, insets: UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10))
+                textLabel.constrainEdges(to: self, insets: contentEdgeInsets)
             }
         }
     }
