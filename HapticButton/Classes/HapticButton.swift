@@ -17,8 +17,8 @@ public protocol HapticButtonDelegate: class {
 
 /// Describe the button mode cases.
 public enum HapticButtonMode {
-    case label(text: String)
-    case image(image: UIImage)
+    case label(_: String)
+    case image(_: UIImage)
 }
 
 open class HapticButton: UIControl {
@@ -54,7 +54,7 @@ open class HapticButton: UIControl {
     public var contentEdgeInsets = UIEdgeInsets(top: 20, left: 20, bottom: 20, right: 20)
 
     /// The current mode of the button.
-    public var mode = HapticButtonMode.label(text: "Title") {
+    public var mode = HapticButtonMode.label("Title") {
         didSet {
             // Update the UI state based on the current mode.
             switch mode {
@@ -106,7 +106,10 @@ open class HapticButton: UIControl {
 
     public convenience init(mode: HapticButtonMode) {
         self.init(frame: .zero)
-        self.mode = mode
+        // Workaround for Swift "bug" that doesn't call didSet when setting from an initializer. May broke in the future.
+        defer {
+            self.mode = mode
+        }
     }
 
     public override init(frame: CGRect) {

@@ -18,16 +18,16 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        button.mode = .label(text: "Hello! 👋")
+        button.mode = .label("Hello! 👋")
         // Use the delegate method to be notified when the button is pressed.
         button.delegate = self
 
-        blurButton.mode = .image(image: #imageLiteral(resourceName: "swift"))
+        blurButton.mode = .image(#imageLiteral(resourceName: "swift"))
         blurButton.addBlurView(style: .light)
         // Add custom target selector to the touch up inside event.
         blurButton.addTarget(self, action: #selector(blurButtonPressed(_:)), for: .touchUpInside)
 
-        darkBlurButton.mode = .label(text: "Hello Blur!")
+        darkBlurButton.mode = .label("Hello Blur!")
         darkBlurButton.textLabel.textColor = .white
         darkBlurButton.addBlurView(style: .dark)
         // Pass closure to be invoked when the button is pressed.
