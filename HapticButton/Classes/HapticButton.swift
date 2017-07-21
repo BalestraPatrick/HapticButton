@@ -106,9 +106,10 @@ open class HapticButton: UIControl {
         }
     }()
 
-    public convenience init(mode: HapticButtonMode) {
+    public convenience init(mode: HapticButtonMode, contentEdgeInsets: UIEdgeInsets = .zero) {
         self.init(frame: .zero)
         // Workaround for Swift "bug" that doesn't call didSet when setting from an initializer. May broke in the future.
+        self.contentEdgeInsets = contentEdgeInsets
         defer {
             self.mode = mode
         }
