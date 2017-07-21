@@ -101,6 +101,8 @@ open class HapticButton: UIControl {
             } else {
                 self.sendActions(for: .touchUpInside)
             }
+            // Complete animation since touchesEnded is not called when immediately presenting a view and if the user doesn't release the touch.
+            self.touchesEnded([], with: nil)
         }
     }()
 
