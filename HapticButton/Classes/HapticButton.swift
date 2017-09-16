@@ -150,6 +150,8 @@ open class HapticButton: UIControl {
         super.touchesBegan(touches, with: event)
         if traitCollection.forceTouchCapability == .available {
             generator.prepare()
+        } else {
+            completionBlock()
         }
     }
 
