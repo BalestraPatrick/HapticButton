@@ -24,7 +24,7 @@
 
 `HapticButton` replicates the behavior of the buttons in the iOS 10 and 11 Control Center as well as in the Home app. A device with 3D Touch is required to fully experience the haptic feedback on supported devices. It is implemented as a subclass of `UIControl`, so feel free to further customize it to your needs.
 
-The user is required to press the button and activate 3D Touch with a minimum pressure threshold (you can specify the minimum value to trigger the button via the `feedbackThreshold` property). This allows for a cool interaction that gives an haptic feedback to the user when the button is triggered. 👍
+The user is required to press the button and activate 3D Touch with a minimum pressure threshold (you can specify the minimum value to trigger the button via the `feedbackThreshold` property). This allows for a cool interaction that gives a haptic feedback to the user when the button is triggered. 👍
 
 For the best experience, install the example on a device. 📱
 
@@ -69,7 +69,7 @@ public weak var delegate: HapticButtonDelegate?
 /// The closure invoked when the button is pressed.
 public var onPressed: Callback?
 
-/// The minium pressure that the button press has to receive in order to trigger the related haptic feedback. The value has to be between 0 and 1 and the default is 0.25.
+/// The minimum pressure that the button press has to receive in order to trigger the related haptic feedback. The value has to be between 0 and 1 and the default is 0.25.
 public var feedbackThreshold = 0.25
 
 /// If the button is in mode `label`, this `UILabel` is part of the button hierarchy. Modify this object directly for more customizations on the displayed text.
